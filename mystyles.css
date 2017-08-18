@@ -1,3 +1,22 @@
 body{
-                background: #aaaaaa
+        background-color: #ffffff;
     }
+#navigation{
+    
+    list-style: none;
+    overflow: hidden;
+
+}
+
+#navigation li{
+    float: left;
+    
+    border-right:1px solid #ddd;
+
+}
+
+#navigation li a{
+    display: block;
+    padding: 10px 15px;
+
+}

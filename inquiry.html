@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="初めてのHTML5">
+        <link rel="shortcut icon" href="favicon.ico">
+        <title>お問い合わせ</title>
+        <link rel="stylesheet" href="mystyles.css"
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul id="navigation">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">このサイトについて</a></li>
+                    <li><a href="profile.html">プロフィール</a></li>
+                    <li><a href="inquiry.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+            <article>
+                <h1>お問い合わせ</h1>
+                <form action="script/send.php" method="post">
+                    <p>メールアドレス<input type="text" name="email" size="50" placeholder="sample@email.com"></p>
+                    <p>ログインパスワード：<input type="password" name="password" size="8" placeholder="password"></p>
+                    <input type="hidden" name="user_id" value="user">
+                    <p><input type="submit" value="送信"></p>
+                </form>
+            </article>
+
+
+        <footer>
+            このサイトは @toru によって運営されています。
+        </footer>
+    </body>
+</html>
