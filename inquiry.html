@@ -21,10 +21,39 @@
             <article>
                 <h1>お問い合わせ</h1>
                 <form action="script/send.php" method="post">
-                    <p>メールアドレス<input type="text" name="email" size="50" placeholder="sample@email.com"></p>
+                    <p>メールアドレス<input type="email" name="email" size="50" placeholder="sample@email.com" required></p>
+                    <p>料金<input type="number" name="price"></p>
+                    <p>誕生日<input type="date" name="birthday"></p>
+                    <p>
+                        Phone:
+                        <label><input type="checkbox" name="phone" value="android" checked>Android</label>
+                        <input type="checkbox" name="phone" value="iphone" id="iphone"><label for="iphone">iPhone</label>
+                    </p>
+                    <p>
+                        Color:
+                        <input type="radio" name="color" value="red" checked>Red
+                        <input type="radio" name="color" value="blue">Blue
+                    </p>
+                    <p>
+                        City:
+                        <select name="city">
+                            <option value="Sapporo">Sapporo</option>
+                            <option value="Tokyo" selected>Tokyo</option>
+                            <option value="Nagoya">Nagoya</option>
+                            <option value="Osaka">Osaka</option>
+                            <option value="Kyoto">Kyoto</option>
+                            <option value="Fukuoka">Fukuoka</option>
+                        </select>
+                    </p>
                     <p>ログインパスワード：<input type="password" name="password" size="8" placeholder="password"></p>
                     <input type="hidden" name="user_id" value="user">
-                    <p><input type="submit" value="送信"></p>
+                    <p>問い合わせ内容<textarea name="comment" cols="40" rows="5">問い合わせ内容を入力</textarea></p>
+                    <p>
+                        <button type="submit"><strong>送信</strong></button>
+                    </p>
+                    <!--
+                        <p><input type="submit" value="送信"></p>
+                    -->
                 </form>
             </article>
 
