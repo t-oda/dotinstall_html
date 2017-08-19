@@ -24,6 +24,52 @@ a#site{
 また、css内に!importantを記述したものはさらに優先されるため、
 dotinstallの文字色はskyblueが適用される。*/
 
+/*ボックスモデル*/
+body{
+    margin: 0;
+}
+div{
+    background-color: silver;
+    width: 200px;
+    height: 100px;
+    /*border-color: orange;
+    border-width: 4px;
+    border-style: dotted;*/
+    border-top: orange 4px double;
+    padding: 10px;
+    margin: 20px 10px;
+
+}
+
+/*textに関するプロパティ*/
+p{
+    color: red;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline line-through;
+}
+
+/*listについて*/
+#test1 li{
+    /*list-style:inside decimal;*/
+    list-style-image: url("beginer.png");
+}
+
+/*cursorについて*/
+.help{
+    cursor: help;
+}
+.dragme{
+    cursor: move;
+}
+.clickme{
+    cursor: pointer;
+}
+.smile{
+    cursor: url("beginer.png" , auto);
+}
 /*↓共通部分↓*/
 #navigation{
     
