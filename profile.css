@@ -1,0 +1,50 @@
+/*セレクタの優先度について*/
+
+/*0.0.0.1*/
+
+a{
+    color:skyblue !important;
+}
+
+/*0.0.1.1 classを指定する*/
+a.link{
+    color: pink;
+}
+
+/*0.0.1.1 classを指定したものが複数ある場合、後に記載したものが優先される*/
+a.search{
+    color: orange;
+}
+
+/*0.1.0.1 idを指定するとさらに優先される*/
+a#site{
+    color: blue;
+}
+/*1.0.0.0 html内に直接スタイルを記述するとさらに優先される
+また、css内に!importantを記述したものはさらに優先されるため、
+dotinstallの文字色はskyblueが適用される。*/
+
+/*↓共通部分↓*/
+#navigation{
+    
+    list-style: none;
+    overflow: hidden;
+
+
+}
+
+#navigation li{
+    float: left;
+    border-right:1px solid #ddd;
+    background-color: lightgreen;
+    padding: 20px 30px;
+
+}
+
+#navigation li a{
+    display: block;
+    padding: 10px 15px;
+    color: blue !important;
+}
+
+/*↑共通部分↑*/

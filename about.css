@@ -1,0 +1,36 @@
+#navigation{
+    
+    list-style: none;
+    overflow: hidden;
+
+
+}
+
+#navigation li{
+    float: left;
+    border-right:1px solid #ddd;
+    background-color: lightgreen;
+    padding: 20px 30px;
+}
+
+#navigation li a{
+    display: block;
+    padding: 10px 15px;
+
+}
+
+/*p:first-line{
+    color:skyblue;
+}*/
+
+p:first-letter{
+    color:skyblue;
+}
+
+p:before{
+    content: "hogehoge"
+}
+
+p::after{
+    content: "fugafuga"
+}
