@@ -5,7 +5,7 @@
         <meta name="description" content="初めてのHTML5">
         <link rel="shortcut icon" href="favicon.ico">
         <title>お問い合わせ</title>
-        <link rel="stylesheet" href="mystyles.css"
+        <link rel="stylesheet" href="input.css"
     </head>
     <body>
         <header>
@@ -48,9 +48,8 @@
                     <p>ログインパスワード：<input type="password" name="password" size="8" placeholder="password"></p>
                     <input type="hidden" name="user_id" value="user">
                     <p>問い合わせ内容<textarea name="comment" cols="40" rows="5">問い合わせ内容を入力</textarea></p>
-                    <p>
-                        <button type="submit"><strong>送信</strong></button>
-                    </p>
+
+                    <input id="submit_button" type="submit" value="送信">
                     <!--
                         <p><input type="submit" value="送信"></p>
                     -->

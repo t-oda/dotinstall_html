@@ -1,0 +1,44 @@
+body{
+        background-color: #ffffff;
+    }
+#navigation{
+    
+    list-style: none;
+    overflow: hidden;
+
+
+}
+
+#navigation li{
+    float: left;
+    border-right:1px solid #ddd;
+    background-color: lightgreen;
+    padding: 20px 30px;
+}
+
+#navigation li a{
+    display: block;
+    padding: 10px 15px;
+
+}
+
+input#submit_button{
+    width: 150px;
+    height: 80px;
+    font-size: 1.2em;
+    padding: 15px 40px;
+    background-color: seagreen;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+input#submit_button:hover{
+    background-color: green;
+}
+
+input#submit_button:active{
+    background-color: grey;
+    
+}
+
+

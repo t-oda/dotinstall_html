@@ -1,0 +1,25 @@
+/*↓共通部分↓*/
+#navigation{
+    
+    list-style: none;
+    overflow: hidden;
+
+}
+#navigation li{
+    float: left;
+    border-right:1px solid #ddd;
+    background-color: lightgreen;
+    padding: 20px 30px;
+
+}
+
+#navigation li a{
+    display: block;
+    padding: 10px 15px;
+    color: blue !important;
+}
+article{
+    font-family: "Baloo Bhaijaan";
+}
+
+/*↑共通部分↑*/
