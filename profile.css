@@ -1,3 +1,4 @@
+
 /*セレクタの優先度について*/
 
 /*0.0.0.1*/
@@ -24,22 +25,23 @@ a#site{
 また、css内に!importantを記述したものはさらに優先されるため、
 dotinstallの文字色はskyblueが適用される。*/
 
-/*ボックスモデル*/
+/*ボックスモデル
 body{
     margin: 0;
 }
-div{
+*/
+/*div{
     background-color: silver;
     width: 200px;
     height: 100px;
-    /*border-color: orange;
+    border-color: orange;
     border-width: 4px;
-    border-style: dotted;*/
+    border-style: dotted;
     border-top: orange 4px double;
     padding: 10px;
     margin: 20px 10px;
 
-}
+}*/
 
 /*textに関するプロパティ*/
 p{
@@ -52,12 +54,12 @@ p{
 }
 
 /*listについて*/
-#test1 li{
-    /*list-style:inside decimal;*/
-    list-style-image: url("beginer.png");
-}
+/*#test1 li{
+    list-style:inside decimal;
+    list-style-image: url("beginer.png");}
+*/
 
-/*cursorについて*/
+/*cursorについて
 .help{
     cursor: help;
 }
@@ -68,8 +70,9 @@ p{
     cursor: pointer;
 }
 .smile{
-    cursor: url("beginer.png" , auto);
+    cursor: url("beginer.png");
 }
+*/
 /*↓共通部分↓*/
 #navigation{
     
@@ -94,3 +97,13 @@ p{
 }
 
 /*↑共通部分↑*/
+.gray{
+    background: gray;
+
+}
+.silver{
+    background: silver;
+}
+.orange{
+    background: orange;
+}

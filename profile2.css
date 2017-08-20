@@ -1,0 +1,123 @@
+/*↓共通部分↓*/
+#navigation{
+    
+    list-style: none;
+    overflow: hidden;
+
+}
+
+#navigation li{
+    float: left;
+    border-right:1px solid #ddd;
+    background-color: lightgreen;
+    padding: 20px 30px;
+
+}
+
+#navigation li a{
+    display: block;
+    padding: 10px 15px;
+    color: blue !important;
+}
+
+/*↑共通部分↑*/
+
+body{
+    margin: 0;
+}
+h1,h2,p,img{
+    border: 1px solid #ddd;
+}
+img{
+    float: right;
+    width: 400px;
+
+}
+h2{
+    clear: right;
+}
+/*
+p{
+    border: 1px solid #ddd;
+    font-size: 18px;
+    line-height: 2.0;
+    
+}
+img{
+    vertical-align: top;
+}
+
+#box1,#box2,#box3{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+#box1{
+    background: gray;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    overflow: scroll;
+}
+#box2{
+    background: silver;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+#box3{
+    background: orange;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+#box1{
+    width: 100px;
+    height: 50px;
+    background: gray;
+    position: relative;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    
+}
+#box2{
+    width: 100px;
+    height: 50px;
+    background: silver;
+    position: static;
+}
+#box3{
+    width:  50px;
+    height: 25px;
+    background: orange;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+*/
+/*.container{
+    display: table;
+    width: 300px;
+}
+
+.box{
+    display: table-cell;
+    width: 100px;
+}
+.row{
+    display: table-row;
+    
+}
+.gray{
+    background: gray;
+
+}
+.silver{
+    background: silver;
+}
+.orange{
+    background: orange;
+}
+*/
